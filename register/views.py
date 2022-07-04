@@ -189,7 +189,7 @@ def addbooks(request):
         form = add_book(request.POST, request.FILES)
         form.save()
         return redirect("/admindash")
-    return render(request, "admin_final/Add_book.html")
+    return render(request, "admin_final/add_book.html")
 
 #to update the books by admin
 def Bedit(request, p_id):  

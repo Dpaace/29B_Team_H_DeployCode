@@ -42,7 +42,7 @@
                                 <tr>
                                     <th scope="row">{{addbook.book_id}}</th>
                            
-                                    <td><img height="100" width="100" src="{% static 'assets/' %}{{addbook.b_pic}}" alt=""></td>
+                                    <td><img height="100" width="100" src="{{addbook.b_pic.url}}" alt=""></td>
                                     
                                     <td>{{addbook.b_name}}</td>
                                     <td>{{addbook.b_price}}</td>
