@@ -25,8 +25,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-bd2l-#aky)qm!3$7jqnuab&x*tj!j8hsb2s4*j)poipd$+^!ah'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = False
+DEBUG = True
+# DEBUG = False
 
 ALLOWED_HOSTS = ['bookmandu.herokuapp.com']
 # ALLOWED_HOSTS = []
